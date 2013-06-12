@@ -14,7 +14,7 @@ else
 fi
 
 #Enter main directory
-cd Moka
+cd Moka-Dark
 
 # Generate symlinks for 16x16 icons
 echo 'Generating symlinks for 16x16 pixel icons.'
