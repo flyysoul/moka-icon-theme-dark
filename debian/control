@@ -1,0 +1,15 @@
+Source: moka-icon-theme-dark
+Section: gnome
+Priority: optional
+Maintainer: Sam Hewitt <hewittsamuel@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: https://github.com/snwh/moka-icon-theme
+
+
+Package: moka-icon-theme-dark
+Architecture: all
+Depends: ${misc:Depends}
+ moka-icon-theme
+Description: Moka Icon Theme Dark Icons
+ Dark panel icons for Moka icon theme.
