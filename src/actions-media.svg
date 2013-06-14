@@ -21,7 +21,7 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
-   inkscape:export-filename="/home/sam/media.png">
+   inkscape:export-filename="/home/sam/moka-template.png">
   <title
      id="title3004">Moka Icon Theme Template</title>
   <sodipodi:namedview
@@ -33,10 +33,10 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="193.00945"
-     inkscape:cy="164.23376"
-     inkscape:current-layer="svg11300"
+     inkscape:zoom="1"
+     inkscape:cx="325.01137"
+     inkscape:cy="34.192265"
+     inkscape:current-layer="g3544"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -1895,6 +1895,33 @@
          d="m 283,62 0,2 -4,0 c 0,0 -5,0 -5,5 l 0,7 c 0,0 0,5 5,5 l 4,0 0,-3 -4,0 c 0,0 -2,0 -2,-2 l 0,-7 c 0,-2 2,-2 2,-2 l 4,0 0,2 5,-3.5 z m 6,2 0,3 4,0 c 0,0 2,0 2,2 l 0,7 c 0,0 0,2 -2,2 l -4,0 0,-2 -5,3.5 5,3.5 0,-2 4,0 c 5,0 5,-5 5,-5 l 0,-7 c 0,0 0,-5 -5,-5 z"
          id="path6076" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4371">
+      <path
+         style="opacity:0.05;color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 286,182 -10,11 20,0 -10,-11 z m -10,15 0,5 20,0 0,-5 -20,0 z"
+         id="path4373"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4377">
+      <path
+         style="opacity:0.05;color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 282,228 -8,9 16,0 -8,-9 z m -8,12 0,4 16,0 0,-4 -16,0 z"
+         id="path4379"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4383">
+      <path
+         style="opacity:0.05;color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 278,267 -5,6 10,0 -5,-6 z m -5,8 0,2 10,0 0,-2 -10,0 z"
+         id="path4385"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <metadata
      id="metadata4">
@@ -2642,6 +2669,123 @@
          sodipodi:rx="6"
          sodipodi:ry="6"
          d="m 234,272 a 6,6 0 1 1 -12,0 6,6 0 1 1 12,0 z" />
+    </g>
+  </g>
+  <g
+     id="g3542"
+     inkscape:label="Eject"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <g
+       inkscape:groupmode="layer"
+       id="g3544"
+       inkscape:label="Baseplate media-eject"
+       style="display:none">
+      <text
+         id="text3546"
+         inkscape:label="context"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="15.006836"
+         xml:space="preserve"
+         y="26.115234"><tspan
+           id="tspan3548"
+           sodipodi:role="line"
+           x="15.006836"
+           y="26.115234"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">actions</tspan></text>
+      <text
+         id="text3550"
+         inkscape:label="icon-name"
+         sodipodi:linespacing="125%"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
+         x="126.48828"
+         xml:space="preserve"
+         y="26.115234"><tspan
+           sodipodi:role="line"
+           x="126.48828"
+           y="26.115234"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
+           id="tspan3552">media-eject</tspan></text>
+      <rect
+         inkscape:label="16x16"
+         y="264"
+         x="270"
+         height="16"
+         width="16"
+         id="rect3554"
+         style="fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:label="24x24"
+         y="224"
+         x="270"
+         height="24"
+         width="24"
+         id="rect3556"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:label="32x32"
+         y="176"
+         x="270"
+         height="32"
+         width="32"
+         id="rect3558"
+         style="fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3560"
+         width="22"
+         height="22"
+         x="271"
+         y="225"
+         inkscape:label="22x22" />
+    </g>
+    <g
+       style="display:inline"
+       inkscape:label="Symbols"
+       id="g3562"
+       inkscape:groupmode="layer">
+      <path
+         style="color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 278 267 L 273 273 L 283 273 L 278 267 z M 273 275 L 273 277 L 283 277 L 283 275 L 273 275 z "
+         id="rect3564" />
+      <path
+         style="color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 286 182 L 276 193 L 296 193 L 286 182 z M 276 197 L 276 202 L 296 202 L 296 197 L 276 197 z "
+         id="rect3570" />
+      <path
+         style="color:#bebebe;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 282 228 L 274 237 L 290 237 L 282 228 z M 274 240 L 274 244 L 290 244 L 290 240 L 274 240 z "
+         id="rect3576" />
+      <path
+         id="path4359"
+         d="M 278 267 L 273 273 L 283 273 L 278 267 z M 273 275 L 273 277 L 283 277 L 283 275 L 273 275 z "
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05"
+         clip-path="url(#clipPath4383)" />
+      <path
+         id="path4361"
+         d="M 286 182 L 276 193 L 296 193 L 286 182 z M 276 197 L 276 202 L 296 202 L 296 197 L 276 197 z "
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05"
+         clip-path="url(#clipPath4371)" />
+      <path
+         id="path4363"
+         d="M 282 228 L 274 237 L 290 237 L 282 228 z M 274 240 L 274 244 L 290 244 L 290 240 L 274 240 z "
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05"
+         clip-path="url(#clipPath4377)" />
+      <path
+         clip-path="url(#clipPath4371)"
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 286 182 L 276 193 L 296 193 L 286 182 z M 276 197 L 276 202 L 296 202 L 296 197 L 276 197 z "
+         id="path4375" />
+      <path
+         clip-path="url(#clipPath4377)"
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 282 228 L 274 237 L 290 237 L 282 228 z M 274 240 L 274 244 L 290 244 L 290 240 L 274 240 z "
+         id="path4381" />
+      <path
+         clip-path="url(#clipPath4383)"
+         style="color:#bebebe;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.05000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 278 267 L 273 273 L 283 273 L 278 267 z M 273 275 L 273 277 L 283 277 L 283 275 L 273 275 z "
+         id="path4387" />
     </g>
   </g>
   <g
