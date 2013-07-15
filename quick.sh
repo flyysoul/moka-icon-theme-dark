@@ -14,10 +14,6 @@ echo "Trimming Tray icons..."
 ./trim-tray-icons.sh
 echo "Done."
 
-echo "Rendering symbolic icons..."
-./render-symbolic.rb
-echo "Done."
-
 echo "Updating Moka-Dark icon cache..."
 gtk-update-icon-cache /home/sam/dev/moka-icon-theme-dark/Moka-Dark/
 echo "Done."
