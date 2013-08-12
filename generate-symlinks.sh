@@ -55,19 +55,6 @@ icontool-map -c status
 cd ..
 echo 'Done.'
 
-# Generate symlinks for 32x32 icons
-echo 'Generating symlinks for 32x32 pixel icons...'
-cd 32x32
-icontool-map -c actions
-icontool-map -c apps
-icontool-map -c categories
-icontool-map -c devices
-icontool-map -c mimetypes
-icontool-map -c places
-icontool-map -c status
-cd ..
-echo 'Done.'
-
 echo 'Will now generate symlinks missed by "icontool".'
 
 # Generate symlinks for 16x16 icons
