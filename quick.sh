@@ -29,3 +29,8 @@ echo "Done."
 echo "Setting Moka-Dark icon as desktop icon set..."
 gsettings set org.gnome.desktop.interface icon-theme "Moka-Dark"
 echo "Done."
+
+# Creating zip file
+echo "Creating zip file..."
+./create-zip.sh
+echo "Done."
