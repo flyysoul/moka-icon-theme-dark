@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/sam/dev/moka-icon-theme
+cd /home/sam/dev/moka-icon-theme-dark
 
-zip -r moka-icon-theme-dark.zip Moka UNINSTALL INSTALL
+zip -r moka-icon-theme-dark.zip Moka-Dark UNINSTALL INSTALL
