@@ -5,15 +5,15 @@
 #   Sam Hewitt <hewittsamuel@gmail.com>
 #
 # Description:
-#   An installation bash script for Moka Icon Theme
+#   An installation bash script for Moka-Dark Icon Theme
 #
 # Legal Stuff:
 #
-# This file is part of the Moka Icon Theme and is free software; you can redistribute it and/or modify it under
+# This file is part of the Moka-Dark Icon Theme and is free software; you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
 # Foundation; version 3.
 #
-# This file is part of the Moka Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
+# This file is part of the Moka-Dark Icon Theme and is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
 # details.
@@ -22,71 +22,88 @@
 # this program; if not, see <https://www.gnu.org/licenses/gpl-3.0.txt>
 
 clear
-echo '#-----------------------------------------------#'
-echo '#     Moka Dark  Icon Theme Install Script      #'
-echo '#-----------------------------------------------#'
+echo '#----------------------------------------------#'
+echo '#     Moka-Dark Icon Theme Install Script      #'
+echo '#----------------------------------------------#'
+
 
 function continue {
-echo
+echo ""
 read -p "Do you want to continue? (Y)es, (N)o : " INPUT
 case $INPUT in
-	[Yy]* ) ;;
+	[Yy]* ) main;;
     [Nn]* ) exit 99;;
-    * ) echo; echo "Uh oh, invalid response. Please retry."; continue;;
+    * ) echo; echo "Sorry, try again."; continue;;
 esac
+}
+
+function main {
+if [ "$UID" -eq "$ROOT_UID" ]; then
+	if [ -d /usr/share/icons/Moka-Dark ]; then
+		echo
+		read -p "Found an existing installation. Replace it? (Y)es, (N)o : " INPUT
+		case $INPUT in
+			[Yy]* ) rm -Rf /usr/share/icons/Moka-Dark 2>/dev/null;;
+			[Nn]* );;
+		    * )
+		    clear && echo 'Sorry, try again.'
+		    main
+		    ;;
+		esac
+	fi
+	cp -R ./Moka-Dark/ /usr/share/icons/
+	echo "Installation complete!"
+	set
+elif [ "$UID" -ne "$ROOT_UID" ]; then
+	if [ -d $HOME/.icons/Moka-Dark ]; then
+		echo
+		read -p "Found an existing installation. Replace it? (Y)es, (N)o : " INPUT
+		case $INPUT in
+			[Yy]* ) rm -Rf "$HOME/.icons/Moka-Dark" 2>/dev/null;;
+			[Nn]* );;
+		    * )
+		    clear && echo 'Sorry, try again.'
+		    main
+		    ;;
+		esac
+	fi
+	cp -R ./Moka-Dark/ "$HOME/.icons/"
+	echo "Installation complete!"
+	set
+fi
+}
+
+function set {
+echo ""
+read -p "Do you want to set Moka-Dark as desktop theme? (Y)es, (N)o : " INPUT
+case $INPUT in
+	[Yy]* ) settheme;;
+    [Nn]* ) end;;
+    * ) echo; echo "Uh oh, invalid response. Please retry."; set;;
+esac
+}
+
+function settheme {
+echo "Setting Moka-Dark as desktop Icon theme..."
+gsettings set org.gnome.desktop.interface icon-theme "Moka-Dark"
+echo "Done."
+end
+}
+
+function end {
+	echo "Exiting"
+	exit 0
 }
 
 ROOT_UID=0
 if [ "$UID" -ne "$ROOT_UID" ]; then
 	echo
-	echo "Moka Dark Icon Theme will be installed in '$HOME/.icons'."
+	echo "Moka-Dark Icon Theme will be installed in '$HOME/.icons'."
 	echo "To make them available to all users, run this script as root."
 	continue
 else
 	echo
-	echo "Moka Dark Icon Theme will be installed in '/usr/share/icons'"
+	echo "Moka-Dark Icon Theme will be installed in '/usr/share/icons'"
 	echo "It will be available to all users."
 	continue
 fi
-echo
-
-if [ "$UID" -eq "$ROOT_UID" ]; then
-	if [ -d /usr/share/icons/Moka-Dark ]; then
-		echo
-		read -p "Found an existing installation. Remove it? (Y)es, (N)o : " INPUT
-		case $INPUT in
-			[Yy]* ) rm -Rf /usr/share/icons/Moka-Dark 2>/dev/null;;
-			[Nn]* );;
-		    * ) ;;
-		esac
-	fi
-	cp -R ./Moka-Dark/ /usr/share/icons/
-	install_dir=/usr/share/icons/
-elif [ "$UID" -ne "$ROOT_UID" ]; then
-	if [ -d $HOME/.icons/Moka-Dark ]; then
-		echo
-		read -p "Found an existing installation. Remove it? (Y)es, (N)o : " INPUT
-		case $INPUT in
-			[Yy]* ) rm -Rf "$HOME/.icons/Moka-Dark" 2>/dev/null;;
-			[Nn]* );;
-		    * ) ;;
-		esac
-	fi
-	cp -R ./Moka-Dark/ "$HOME/.icons/"
-	install_dir="$HOME/.icons/"
-fi
-
-function set {
-echo "Installation complete!"
-read -p "Do you want to set Moka Dark as desktop icon set? (Y)es, (N)o : " INPUT
-case $INPUT in
-	[Yy]* ) echo "Setting Moka Dark icon as desktop icon set..." && gsettings set org.gnome.desktop.interface icon-theme "Moka-Dark" && echo "Done.";;
-    [Nn]* );;
-    * ) echo; echo "Uh oh, invalid response. Please retry."; set;;
-esac
-}
-
-echo ''
-set
-echo "Exiting"
-exit 0
