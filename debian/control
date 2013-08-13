@@ -11,5 +11,5 @@ Package: moka-icon-theme-dark
 Architecture: all
 Depends: ${misc:Depends}
  moka-icon-theme
-Description: Moka Icon Theme Dark Icons
+Description: Moka Dark Icon Theme
  Dark panel icons for Moka icon theme.

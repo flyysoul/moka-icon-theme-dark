@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Moka Icon Theme
-Comment=A modern theme designed to be cohesive and comprehensive
+Name=Moka-Dark
+Comment=Dark panel icons for Moka icon theme.
 Example=folder
 Inherits=Moka,Humanity,gnome,hicolor
 

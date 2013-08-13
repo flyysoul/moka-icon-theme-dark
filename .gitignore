@@ -6,6 +6,7 @@
 debian/files
 debian/moka-icon-theme-dark.debhelper.log
 debian/moka-icon-theme-dark.postinst.debhelper
+debian/moka-icon-theme-dark.postrm.debhelper
 debian/moka-icon-theme-dark.prerm.debhelper
 debian/moka-icon-theme-dark.substvars
 debian/moka-icon-theme-dark
