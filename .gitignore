@@ -11,4 +11,9 @@ debian/moka-icon-theme-dark.prerm.debhelper
 debian/moka-icon-theme-dark.substvars
 debian/moka-icon-theme-dark
 
+create-zip.sh
+generate-symlinks.sh
+quick.sh
+trim-tray-icons.sh
+
 moka-icon-theme-dark.zip
