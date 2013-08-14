@@ -35,7 +35,7 @@ For Ubuntu and its derivatives, Moka-Dark is available in a PPA, which can be ad
 
 To uninstall, run the uninstall script to remove the locally installed icons. 
 
-    ./INSTALL
+    ./UNINSTALL
 
 Running as root will remove the icon set, if installed, from /usr/share/icons.
     
