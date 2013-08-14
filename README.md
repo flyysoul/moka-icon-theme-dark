@@ -1,9 +1,9 @@
-Moka Dark Icon Theme
+Moka-Dark Icon Theme
 ====================
 
-"Moka Dark" is a supplementary icon theme for "Moka" it contains only the icons necessary for lighter themes and depends on the main set.
+Moka-Dark is a supplementary icon theme for Moka. It contains only the icons necessary for light-panelled themes and depends on the main set.
 
-Moka-Dark Icon Theme artwork is distributed under the terms of a Creative Commons BY-SA 3.0 license & the related source software the GNU LGPL v.3
+Moka-Dark Icon Theme is distributed under the terms of the GNU GPL v.3.
 
 ###Source
 
