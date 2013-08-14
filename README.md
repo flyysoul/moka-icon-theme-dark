@@ -55,10 +55,6 @@ To render new icons from their source SVG files, run the following:
 
 This script will look in the source directories and render the respective icons (provided there are changes).
 
-Likewise, to render symbolic icons, run:
-
-    ./render-symbolic.rb
-
 ###Bugs, Issues, Questions, Requests
 
 If you find any bugs or issues with Moka or if you have a question or request, you can visit: https://github.com/snwh/moka-icon-theme-dark/issues or https://launchpad.net/moka-icon-theme
